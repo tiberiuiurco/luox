@@ -48,7 +48,21 @@ export const calculateAlphaOpic = (
     CIES026,
     key
   );
-  return samplesInWatts.map((sample) => sample * 1000);
+
+  //return samplesInWatts.map((sample) => sample * 1000);
+
+  switch (key) {
+    case "sCone":
+      return samplesInWatts.map((sample) => sample * 1466);
+    case "mCone":
+      return samplesInWatts.map((sample) => sample * 683);
+    case "lCone":
+      return samplesInWatts.map((sample) => sample * 683);
+    case "mel":
+      return samplesInWatts.map((sample) => sample * 872);
+    default:
+      return samplesInWatts.map((sample) => sample * 1000);
+  }
 };
 
 export const calculateEquivalentDaylightAlphaOpic = (
