@@ -58,7 +58,7 @@ Companion paper:
 
 For citing the source code:
 
-> **Spitschan, M., Nam, S., & Veitch, J. A. (2022). luox: Platform for calculating quantities related to light and lighting [Source code]. Available from https://github.com/luox-app/luox.**
+> **Spitschan, M., Nam, S., & Veitch, J. A. (2022). luox: Platform for calculating quantities related to light and lighting [Source code]. Available from https://github.com/tiberiuiurco/luox.**
 
 When reporting quantities related to CIE S 026, we also recommend citing the standard:
 
@@ -72,7 +72,7 @@ For any support-related questions, please email [luox-support@tuebingen.mpg.de](
 
 ### Bug reports and feature requests
 
-To report bugs and suggest new features, please raise an issue on the project's [GitHub page](https://github.com/luox-app/luox/issues/new). When reporting a bug or any other issue, you need to be as specific as possible:
+To report bugs and suggest new features, please raise an issue on the project's [GitHub page](https://github.com/tiberiuiurco/luox/issues/new). When reporting a bug or any other issue, you need to be as specific as possible:
 
 - Include concrete and specific steps to reproduce your problem, including any files that pose an issue
 - If the problem only occurs occasionally but is reproducible, please include any additional contextual information
@@ -268,11 +268,11 @@ While calculation procedures are structurally well-defined by the CIE, there are
 
 ### Source code availability and license
 
-The source code is available on GitHub (https://github.com/luox-app/luox/) under an MIT License.
+The source code is available on GitHub (https://github.com/tiberiuiurco/luox/) under an MIT License.
 
 ### Validation
 
-The default output of luox (CIE quantities and indices) has been validated by the CIE. The validation report is available [here](https://github.com/luox-app/luox/raw/master/docs/CIE_Software_Check_of_luox_app.pdf).
+The default output of luox (CIE quantities and indices) has been validated by the CIE. The validation report is available [here](https://github.com/tiberiuiurco/luox/raw/master/docs/CIE_Software_Check_of_luox_app.pdf).
 
 According to the CIE:
 

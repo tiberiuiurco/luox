@@ -225,9 +225,9 @@ const About = () => {
                                         (2022). luox: Platform for calculating
                                         quantities related to light and lighting
                                         [Source code]. Available from{" "}
-                                        <a href="https://github.com/luox-app/luox">
+                                        <a href="https://github.com/tiberiuiurco/luox">
                                           <strong>
-                                            https://github.com/luox-app/luox
+                                            https://github.com/tiberiuiurco/luox
                                           </strong>
                                         </a>
                                         .
@@ -300,7 +300,7 @@ const About = () => {
                                       To report bugs and suggest new features,
                                       please raise an issue on the
                                       project&apos;s{" "}
-                                      <a href="https://github.com/luox-app/luox/issues/new">
+                                      <a href="https://github.com/tiberiuiurco/luox/issues/new">
                                         GitHub page
                                       </a>
                                       . When reporting a bug or any other issue,
@@ -1451,8 +1451,8 @@ const About = () => {
                                   >
                                     <p className="about-us-detail">
                                       The source code is available on GitHub (
-                                      <a href="https://github.com/luox-app/luox/">
-                                        https://github.com/luox-app/luox/
+                                      <a href="https://github.com/tiberiuiurco/luox/">
+                                        https://github.com/tiberiuiurco/luox/
                                       </a>
                                       ) under the GNU General Public License
                                       v3.0.
@@ -1477,7 +1477,7 @@ const About = () => {
                                       The default output of luox (CIE quantities
                                       and indices) has been validated by the
                                       CIE. The validation report is available{" "}
-                                      <a href="https://github.com/luox-app/luox/raw/master/docs/CIE_Software_Check_of_luox_app.pdf">
+                                      <a href="https://github.com/tiberiuiurco/luox/raw/master/docs/CIE_Software_Check_of_luox_app.pdf">
                                         here
                                       </a>
                                       .

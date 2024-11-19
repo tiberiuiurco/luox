@@ -15,15 +15,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luox-app/luox.git"
+    "url": "git+https://github.com/tiberiuiurco/luox.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/luox-app/luox/issues"
+    "url": "https://github.com/tiberiuiurco/luox/issues"
   },
-  "homepage": "https://github.com/luox-app/luox#readme",
+  "homepage": "https://github.com/tiberiuiurco/luox#readme",
   "devDependencies": {
     "@babel/core": "^7.22.6",
     "@babel/plugin-transform-runtime": "^7.22.6",
