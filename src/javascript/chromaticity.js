@@ -1,5 +1,6 @@
 import CIEXYZ31 from "../data/ciexyz31.json";
 import CIEXYZ64 from "../data/ciexyz64.json";
+import CIEXYZ06 from "../data/ciexyz06.json"
 import { integrateWithWeights } from "./rows";
 
 const calculateChromaticity = (selectedRows, selectedRowsSampleCount, data) => {
@@ -51,4 +52,11 @@ export const calculateChromaticity64 = (
   selectedRowsSampleCount
 ) => {
   return calculateChromaticity(selectedRows, selectedRowsSampleCount, CIEXYZ64);
+};
+
+export const calculateChromaticity06 = (
+  selectedRows,
+  selectedRowsSampleCount
+) => {
+  return calculateChromaticity(selectedRows, selectedRowsSampleCount, CIEXYZ06);
 };

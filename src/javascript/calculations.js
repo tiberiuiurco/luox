@@ -8,6 +8,7 @@ import { calculateTM30ColourFidelityIndex } from "./tm30ColourFidelityIndex";
 import {
   calculateChromaticity31,
   calculateChromaticity64,
+  calculateChromaticity06
 } from "./chromaticity";
 
 export const calculateLuminance = (selectedRows, selectedRowsSampleCount) => {
@@ -158,6 +159,10 @@ export const calculate = (selectedRows, selectedRowsSampleCount) => {
       selectedRowsSampleCount
     ),
     chromaticity64: calculateChromaticity64(
+      selectedRows,
+      selectedRowsSampleCount
+    ),
+    chromaticity06: calculateChromaticity06(
       selectedRows,
       selectedRowsSampleCount
     ),

@@ -115,6 +115,7 @@ const CalculationTable = ({
     luminanceTotals: [0],
     chromaticity31: [{ x: 0, y: 0 }],
     chromaticity64: [{ x: 0, y: 0 }],
+    chromaticity06: [{ x: 0, y: 0 }],
     lConeTotals: [0],
     mConeTotals: [0],
     sConeTotals: [0],
@@ -309,7 +310,7 @@ const CalculationTable = ({
               samples={calculation.luminanceTotals}
               exponentialNotation={exponentialNotation}
             />
-            <CalculationTableRow
+            {/* <CalculationTableRow
               heading="CIE 1931 xy chromaticity [x]"
               samples={calculation.chromaticity31.map(({ x }) => x)}
               exponentialNotation={exponentialNotation}
@@ -317,6 +318,16 @@ const CalculationTable = ({
             <CalculationTableRow
               heading="CIE 1931 xy chromaticity [y]"
               samples={calculation.chromaticity31.map(({ y }) => y)}
+              exponentialNotation={exponentialNotation}
+            /> */}
+            <CalculationTableRow
+              heading="CIE 2006 xy chromaticity [x]"
+              samples={calculation.chromaticity06.map(({ x }) => x)}
+              exponentialNotation={exponentialNotation}
+            />
+            <CalculationTableRow
+              heading="CIE 2006 xy chromaticity [y]"
+              samples={calculation.chromaticity06.map(({ y }) => y)}
               exponentialNotation={exponentialNotation}
             />
             {advanced && (
